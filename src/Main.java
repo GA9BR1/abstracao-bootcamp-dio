@@ -35,8 +35,9 @@ public class Main {
         devGustavo.setNome("Gustavo");
         devGustavo.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos inscritos Gustavo:" + devGustavo.getConteudosInscritos());
-        devGustavo.progredir();
-        devGustavo.progredir();
+        devGustavo.progredir("curso java");
+        devGustavo.progredir("curso js");
+        devGustavo.progredir("mentoria de java");
         System.out.println("Conteúdos concluídos Gustavo:" + devGustavo.getConteudosConclucidos());
         System.out.println("Conteúdos inscritos Gustavo:" + devGustavo.getConteudosInscritos());
         System.out.println("XP: " + devGustavo.calcularTotalXp());
@@ -47,7 +48,7 @@ public class Main {
         devCamila.setNome("Camila");
         devCamila.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos inscritos Camila:" + devCamila.getConteudosInscritos());
-        devCamila.progredir();
+        devCamila.progredir("curso java");
         System.out.println("Conteúdos concluídos Camila:" + devCamila.getConteudosConclucidos());
         System.out.println("Conteúdos inscritos Camila:" + devCamila.getConteudosInscritos());
         System.out.println("XP: " + devCamila.calcularTotalXp());
